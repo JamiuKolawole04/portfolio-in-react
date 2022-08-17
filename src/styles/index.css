@@ -1,0 +1,128 @@
+/* fonts Lato and Rubik */
+
+@charset "utf-8";
+
+:root {
+  --darkBlue: #0e1b31;
+  --lightBlue: #102048;
+  --blue-color-three: #132347;
+  --col-puple-one: #7865ff;
+  --scroll-bar-color: #c1ceff;
+  --scroll-bar-thumb-color: #282f4e;
+  --white: #fff;
+  --font-Lato: "Lato";
+  --font-Rubik: "Rubik";
+  --fw4: 400;
+  --fw5: 500;
+  --fw6: 600;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--darkBlue);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--white);
+  font-family: var(--font-Lato);
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+  font-weight: var(--fw5);
+}
+
+p {
+  color: var(--white);
+  opacity: 75%;
+  font-size: 1rem;
+  font-family: var(--font-Rubik);
+  font-weight: var(--fw4);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  font-family: var(--font-Lato);
+  text-decoration: none;
+}
+
+a,
+a:hover {
+  color: unset;
+}
+
+section,
+footer {
+  padding: 60px 0;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--scroll-bar-color);
+
+}
+
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background-color: #282f4e
+}
+
+/*HEADRE STYLES
+================================================================================================*/
+@import url("./header.css");
+
+/* HERO SECTION STYLES
+================================================================================================*/
+@import url("./hero-section.css");
+
+
+/* ABOUT SRTYLES
+==================================================================================================*/
+@import url("./about.css");
+
+/* EDUCATION STYLES
+===================================================================================================*/
+@import url("./education.css");
+
+/* SKILLS
+====================================================================================================*/
+@import url("./skills.css");
+
+/* AWARD
+=====================================================================================================*/
+@import url("./award.css");
+
+/* SERVICES
+=======================================================================================================*/
+@import url("./services.css");
+
+/* EXPERIENCE
+=======================================================================================================*/
+@import url("./experience.css");
+
+/* PORFOLIO
+========================================================================================================*/
+@import url("./portfolio.css");

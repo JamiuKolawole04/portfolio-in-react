@@ -1,0 +1,33 @@
+.skills__wrapper {
+    background-color: var(--blue-color-three);
+    padding: 20px 20px 20px 20px;
+    border-radius: 8px;
+}
+
+.skill__bar {
+    width: 100%;
+    position: relative;
+    background: var(--scroll-bar-color);
+    height: 4px;
+    border-radius: 48px;
+    z-index: 999;
+    margin-top: -8px;
+}
+
+.skill__bar-percentage {
+    background-color: var(--col-puple-one);
+    height: 4px;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    border-radius: 48px;
+}
+
+.skill__title span {
+    color: var(--white);
+}
+
+.skill__title {
+    margin-bottom: 8px;
+}
