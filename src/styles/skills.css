@@ -31,3 +31,14 @@
 .skill__title {
     margin-bottom: 8px;
 }
+
+
+@media only screen and (max-width: 992px) {
+    .skill__title h6 {
+        font-size: .8rem;
+    }
+
+    .skill__title span {
+        font-size: .7rem;
+    }
+}

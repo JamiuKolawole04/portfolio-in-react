@@ -32,3 +32,15 @@
 .single__service:hover {
     transform: translateY(-8px);
 }
+
+@media only screen and (max-width: 992px) {
+    .single__service h2 {
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+    }
+
+    .single__service p {
+        font-size: .9rem;
+        line-height: 28px;
+    }
+}

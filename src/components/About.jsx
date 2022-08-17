@@ -4,7 +4,8 @@ import { Container, Col, Row } from "reactstrap";
 import { Education } from "./Education";
 import { Skills } from "./Skills";
 import { Award } from "./Award";
-import img1 from "../asset/images/img-1.png";
+// import img1 from "../asset/images/img-1.png";
+// import logoImg from "../asset/images/J-logo.webp";
 // import img2 from "../asset/images/img-2.png";
 // import img3 from "../asset/images/img-3.png";
 
@@ -46,9 +47,9 @@ export const About = () => {
                     <Col lg="8" md="9">
                         {
                             aboutFilter === "ABOUT" && <div className="about__content__wrapper d-flex gap-5">
-                                <div className="about__img w-25">
-                                    <img src={img1} alt="" className="w-100" />
-                                </div>
+                                {/* <div className="about__img w-25">
+                                    <img src={logoImg} alt="" className="w-100" />
+                                </div> */}
 
                                 <div className="about__content w-75">
                                     <h2>I am Jamiu Kolawole</h2>

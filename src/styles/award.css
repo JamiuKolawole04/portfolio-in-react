@@ -25,3 +25,17 @@
     width: 47%;
     margin-bottom: 12px;
 }
+
+@media only screen and (max-width: 992px) {
+    .award__title {
+        font-size: .8rem;
+    }
+
+    .award__title span {
+        font-size: .7rem;
+    }
+
+    .award__year {
+        font-size: .7rem;
+    }
+}

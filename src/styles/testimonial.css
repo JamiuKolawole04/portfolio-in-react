@@ -1,0 +1,27 @@
+.single__testimonial {
+    padding: 28px;
+}
+
+.single__testimonial p {
+    margin-bottom: 16px;
+}
+
+.single__testimonial h6 {
+    margin-bottom: 12px;
+    color: var(--col-puple-one);
+    font-size: 1.1rem;
+    font-weight: var(--fw5);
+}
+
+.single__testimonial .title {
+    font-weight: 300 !important;
+    font-size: .8rem;
+    opacity: 65%;
+}
+
+@media only screen and (max-width: 992px) {
+    .single__testimonial p {
+        font-size: .9rem;
+        line-height: 28px;
+    }
+}

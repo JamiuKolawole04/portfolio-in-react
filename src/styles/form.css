@@ -1,0 +1,40 @@
+form {
+    width: 100%;
+    background: var(--blue-color-three);
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.form__input input,
+.form__input textarea {
+    width: 100%;
+    padding: 12px 16px;
+    color: var(--white);
+    background: var(--lightBlue);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: .8rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.submit__btn {
+    margin-top: 16px;
+    padding: 8px 24px;
+    font-size: .9rem;
+    background-color: var(--col-puple-one);
+    color: var(--white);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 992px) {
+    .submit__btn {
+        padding: 4px 24px;
+        font-size: 0.8rem;
+    }
+}

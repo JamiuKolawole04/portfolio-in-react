@@ -2,9 +2,10 @@ import { useRef, useEffect } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { init } from "ityped";
 
-import img1 from "../asset/images/img-1.png";
+// import img1 from "../asset/images/img-1.png";
 // import img2 from "../asset/images/img-2.png";
 // import img3 from "../asset/images/img-3.png";
+// import bgImg from "../asset/images/J-logo.webp";
 
 export const HeroSection = () => {
     const textRef = useRef();
@@ -14,7 +15,7 @@ export const HeroSection = () => {
             backDelay: 1500,
             showCursor: true,
             strings: [
-                'Jamiu Kolawole',
+                'Jay',
                 'a Web Developer'
             ]
         })
@@ -33,16 +34,16 @@ export const HeroSection = () => {
 
                             <div className=" mt-5 hero__btns d-flex align-items-center gap-4">
                                 <button className="btn hire__btn"><a href="#">Hire me</a></button>
-                                <button className="btn">Contact</button>
+                                <button className="btn contact__btn">Contact</button>
                             </div>
                         </div>
                     </Col>
 
-                    <Col lg="6" md="6">
+                    {/* <Col lg="6" md="6">
                         <div className="hero__img">
-                            <img src={img1} alt="" className="w-100" />
+                            <img src={bgImg} alt="" />
                         </div>
-                    </Col>
+                    </Col> */}
 
                 </Row>
             </Container>

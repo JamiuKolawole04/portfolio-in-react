@@ -3,6 +3,7 @@ import { Container } from "reactstrap";
 
 export const Header = () => {
     const headerRef = useRef(null);
+    const menuRef = useRef(null);
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -13,6 +14,8 @@ export const Header = () => {
             }
         })
     }, []);
+
+    const menuToggle = () => menuRef.current.classList.toggle("menu__active")
 
     const handleClick = e => {
         e.preventDefault();
@@ -54,7 +57,7 @@ export const Header = () => {
                 <div className="navigation d-flex align-items-center justify-content-between">
                     <div className="logo"><h5>Jay</h5></div>
 
-                    <div className="nav__menu">
+                    <div className="nav__menu" ref={menuRef} onClick={menuToggle}>
                         <ul className="nav__list">
 
                             {
@@ -70,7 +73,7 @@ export const Header = () => {
 
                     <div className="nav__right d-flex align-items-center gap-4">
                         <button className="btn">Let's Talk</button>
-                        <span className="mobile__menu"><i className="ri-menu-5-line"></i></span>
+                        <span className="mobile__menu"><i className="ri-menu-5-line" onClick={menuToggle}></i></span>
                     </div>
                 </div>
 

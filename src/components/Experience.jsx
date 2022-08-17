@@ -35,7 +35,7 @@ export const Experience = () => {
                                     <div className="single__experience" key={index}>
                                         <span className="experience__icon"><i className="ri-briefcase-line"></i></span>
                                         <h6>{item.year}</h6>
-                                        <p>Remote / Full Time</p>
+                                        {/* <p>Remote / Full Time</p> */}
                                         <h5>{item.title}</h5>
                                         <p>{item.desc}.</p>
                                     </div>
@@ -53,7 +53,7 @@ export const Experience = () => {
                                     <div className="single__experience" key={index}>
                                         <span className="experience__icon"><i className="ri-briefcase-line"></i></span>
                                         <h6>{item.year}</h6>
-                                        <p>Remote / Full Time</p>
+                                        {/* <p>Remote / Full Time</p> */}
                                         <h5>{item.title}</h5>
                                         <p>{item.desc}.</p>
                                     </div>

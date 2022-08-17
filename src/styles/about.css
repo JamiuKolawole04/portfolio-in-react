@@ -42,16 +42,16 @@
     color: var(--col-puple-one);
 }
 
-.about__img {
+/* .about__img {
     background: var(--col-puple-one);
     border-radius: 8px;
     height: 140px;
-}
+} */
 
-.about__img img {
+/* .about__img img {
     height: 168px;
     border: none;
-}
+} */
 
 .social__links {
     margin-top: -12px;
@@ -60,4 +60,24 @@
 .social__links span {
     margin-top: 8px;
     margin-right: 16px;
+}
+
+@media only screen and (max-width: 992px) {
+    .about__btn {
+        padding: 12px 24px;
+        font-size: .8rem;
+    }
+
+    .about__btns {
+        margin-bottom: 40px;
+    }
+
+    .about__content h2 {
+        font-size: 1.5rem;
+    }
+
+    .about__content p {
+        font-size: .8rem;
+        line-height: 24px;
+    }
 }
