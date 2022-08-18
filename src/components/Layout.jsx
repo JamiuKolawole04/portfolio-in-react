@@ -8,7 +8,7 @@ import { Header } from "./Header";
 import { HeroSection } from "./HeroSection";
 import { Portfolio } from "./Portfolio";
 import { Services } from "./Services";
-import { Testimonials } from "./Testimonials";
+// import { Testimonials } from "./Testimonials";
 
 
 export const Layout = () => {
@@ -20,7 +20,7 @@ export const Layout = () => {
             <Services />
             <Experience />
             <Portfolio />
-            <Testimonials />
+            {/* <Testimonials /> */}
             <Contact />
             <Footer />
         </Fragment>
