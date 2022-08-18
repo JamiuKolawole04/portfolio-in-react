@@ -36,6 +36,7 @@
 .about__content p {
     line-height: 28px;
     font-weight: 300;
+    font-size: .85rem;
 }
 
 .social__links span a i {
@@ -55,6 +56,10 @@
 
 .social__links {
     margin-top: -12px;
+}
+
+.social__links h6 {
+    font-size: .9rem;
 }
 
 .social__links span {

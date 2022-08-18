@@ -25,22 +25,26 @@ export const About = () => {
                             >
                                 About me
                             </button>
-                            <button
-                                className={`about__btn ${aboutFilter === "EDUCATION" ? "about__btn-active" : ""}`}
-                                onClick={() => setAboutFilter("EDUCATION")}
-                            >
-                                Education
-                            </button>
+
                             <button
                                 className={`about__btn ${aboutFilter === "SKILLS" ? "about__btn-active" : ""}`}
                                 onClick={() => setAboutFilter("SKILLS")}
                             >
                                 Skills
                             </button>
+
                             <button
                                 className={`about__btn ${aboutFilter === "AWARD" ? "about__btn-active" : ""}`}
                                 onClick={() => setAboutFilter("AWARD")}
-                            >Award</button>
+                            >Certificate</button>
+                            <button
+                                className={`about__btn ${aboutFilter === "EDUCATION" ? "about__btn-active" : ""}`}
+                                onClick={() => setAboutFilter("EDUCATION")}
+                            >
+                                Education
+                            </button>
+
+
                         </div>
                     </Col>
 
@@ -52,8 +56,8 @@ export const About = () => {
                                 </div> */}
 
                                 <div className="about__content w-75">
-                                    <h2>I am Jamiu Kolawole</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ipsam. Corporis dolore doloribus dolor eveniet, commodi nesciunt officia! Velit, esse.</p>
+                                    <h2>I am Jay</h2>
+                                    <p>I am a seasoned and passionate web developer with years of experience blending the art of design with programming skills to deliver an immersive and engaging user experience through efficient responsive website development, proactive feature optimization and relentless debugging.</p>
 
                                     <div className="social__links">
                                         <h6>Connect with me:</h6>

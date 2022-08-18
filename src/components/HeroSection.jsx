@@ -21,6 +21,8 @@ export const HeroSection = () => {
         })
     }, [])
 
+    const description = "A web developer with years of hands-on experience using a broad range of frontend and backend technologies to develop and maintain advanced, responsive, efficient, and reliable web applications."
+
 
     return (
         <section className="hero__section" id="home">
@@ -30,11 +32,11 @@ export const HeroSection = () => {
                         <div className="hero__content">
                             <p className="mb-3">Welcome!</p>
                             <h2 className="hero__title mb-4">I am <span ref={textRef}></span></h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo non natus culpa, dolor ducimus dolorum perferendis veniam et nostrum pariatur?</p>
+                            <p>{description}</p>
 
                             <div className=" mt-5 hero__btns d-flex align-items-center gap-4">
                                 <button className="btn hire__btn"><a href="#">Hire me</a></button>
-                                <button className="btn contact__btn">Contact</button>
+                                <button className="btn contact__btn"><a href="#contact">Contact</a></button>
                             </div>
                         </div>
                     </Col>

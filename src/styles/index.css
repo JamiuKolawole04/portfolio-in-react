@@ -2,6 +2,76 @@
 
 @charset "utf-8";
 
+
+/* LATO FONTS START */
+@font-face {
+  font-family: "Lato";
+  src: url("../asset/fonts/Lato/Lato-Thin.woff2") format("woff2");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../asset/fonts/Lato/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../asset/fonts/Lato/Lato-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../asset/fonts/Lato/Lato-Bold.woff2") format("woff2");
+  font-weight: 900;
+}
+
+/* LATO FONTS END */
+
+/* RUBIK FONT START*/
+@font-face {
+  font-family: "Rubik";
+  src: url("../asset/fonts/Rubik/Rubik-Light.woff2") format("woff2");
+  font-weight: "300";
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../asset/fonts/Rubik/Rubik-Regular.woff2") format("woff2");
+  font-weight: "400";
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../asset/fonts/Rubik/Rubik-Medium.woff2") format("woff2");
+  font-weight: "500";
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../asset/fonts/Rubik/Rubik-SemiBold.woff2") format("woff2");
+  font-weight: "600";
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../asset/fonts/Rubik/Rubik-Bold.woff2") format("woff2");
+  font-weight: "700";
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../asset/fonts/Rubik/Rubik-ExtraBold.woff2") format("woff2");
+  font-weight: "800";
+}
+
+
+/* RUBIK FONT END*/
+
+
+
 :root {
   --darkBlue: #0e1b31;
   --lightBlue: #102048;
@@ -154,5 +224,9 @@ footer {
 @media screen and (max-width: 575.98px) {
   .slick-prev::before {
     padding-left: 20px !important;
+  }
+
+  .slick-next {
+    right: 2px;
   }
 }

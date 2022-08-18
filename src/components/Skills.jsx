@@ -4,38 +4,38 @@ export const Skills = () => {
     const frontendSkills = [
         {
             title: "Javascript",
-            percentage: "90%",
+            percentage: "100%",
         },
         {
-            title: "React",
-            percentage: "90%",
+            title: "React and Redux",
+            percentage: "100%",
         },
         {
-            title: "Redux",
-            percentage: "90%",
+            title: "CSS preprocessors like SAAS ",
+            percentage: "100%",
         },
         {
-            title: "Next",
-            percentage: "90%",
+            title: "HTML",
+            percentage: "100%",
         },
     ];
 
     const backendSkills = [
         {
             title: "Node.js",
-            percentage: "85%",
+            percentage: "100%",
         },
         {
             title: "Express.js",
-            percentage: "85%",
+            percentage: "100%",
         },
         {
             title: "MongoDB",
-            percentage: "85%",
+            percentage: "100%",
         },
         {
             title: "Socket.io",
-            percentage: "85%",
+            percentage: "100%",
         },
     ];
 
@@ -45,7 +45,7 @@ export const Skills = () => {
             <div className="skill__data mb-3">
                 <div className="skill__title d-flex align-items-center justify-content-between">
                     <h6>{title}</h6>
-                    <span>{percentage}</span>
+                    {/* <span>{percentage}</span> */}
                 </div>
 
                 <div className="skill__bar">

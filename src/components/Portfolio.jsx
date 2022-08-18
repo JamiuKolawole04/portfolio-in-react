@@ -40,7 +40,7 @@ export const Portfolio = () => {
 
                                 <div className="portfolio__content">
                                     <h5>{item.title}</h5>
-                                    <a href={item.url}>View live demo</a>
+                                    <a href={item.url} target="_blank" rel="noreferrer">View live demo</a>
                                 </div>
                             </div>
                         </Col>

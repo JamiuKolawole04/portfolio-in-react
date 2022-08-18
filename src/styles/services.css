@@ -27,6 +27,7 @@
 .single__service p {
     font-weight: 300;
     line-height: 28px;
+    font-size: .9rem;
 }
 
 .single__service:hover {

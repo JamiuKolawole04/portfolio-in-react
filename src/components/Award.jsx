@@ -14,34 +14,34 @@ export const Award = () => {
             <div className="award__item ">
                 <AwardItem
                     year="2020"
-                    title="Frontend Developer"
-                    text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, quisquam?"
+                    title="Web Developement from Scratch"
+                    text="A fullstack web development bootcamp with 100% completion with project collaborations"
                 />
             </div>
 
             <div className="award__item ">
                 <AwardItem
                     year="2020"
-                    title="Frontend Developer"
-                    text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, quisquam?"
+                    title="Jobberman soft skills"
+                    text="An intensive training on team collaborations, communications and emotional awareness at work"
                 />
             </div>
 
-            <div className="award__item ">
+            {/* <div className="award__item ">
                 <AwardItem
                     year="2020"
                     title="Frontend Developer"
                     text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, quisquam?"
                 />
-            </div>
+            </div> */}
 
-            <div className="award__item ">
+            {/* <div className="award__item ">
                 <AwardItem
                     year="2020"
                     title="Frontend Developer"
                     text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, quisquam?"
                 />
-            </div>
+            </div> */}
 
         </div>
     );

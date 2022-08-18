@@ -3,41 +3,46 @@ import { Col, Container, Row } from "reactstrap";
 
 export const Services = () => {
     const serviceData = [
+        // {
+        //     icon: "ri-code-line",
+        //     title: "Web Design",
+        //     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ut?",
+        // },
         {
-            icon: "ri-code-line",
-            title: "Web Design",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ut?",
+            icon: "ri-code-s-slash-line",
+            title: "Front End Web Development",
+            desc: "I build and optimize user interface and user experience with frontend technologies like Javascript to implement web solutions across different browsers and platforms.",
         },
         {
             icon: "ri-code-s-slash-line",
-            title: "Web Development",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ut?",
+            title: "Back End Web Development",
+            desc: "Developmentthe server-side functional logic, definition and maintenance of the central database with security, optimization, scalability and performance in mind.",
         },
-        {
-            icon: "ri-qr-code-line",
-            title: "Web Design",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ut?",
-        },
-        {
-            icon: "ri-code-line",
-            title: "App Development",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ut?",
-        },
-        {
-            icon: "ri-search-line",
-            title: "SEO",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ut?",
-        },
-        {
-            icon: "ri-landscape-line",
-            title: "Graphics Design",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ut?",
-        },
-        {
-            icon: "ri-gallery-line",
-            title: "UI/UX",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ut?",
-        },
+        // {
+        //     icon: "ri-qr-code-line",
+        //     title: "Web Design",
+        //     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ut?",
+        // },
+        // {
+        //     icon: "ri-code-line",
+        //     title: "App Development",
+        //     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ut?",
+        // },
+        // {
+        //     icon: "ri-search-line",
+        //     title: "SEO",
+        //     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ut?",
+        // },
+        // {
+        //     icon: "ri-landscape-line",
+        //     title: "Graphics Design",
+        //     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ut?",
+        // },
+        // {
+        //     icon: "ri-gallery-line",
+        //     title: "UI/UX",
+        //     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ut?",
+        // },
     ];
     return (
         <section id="services">
