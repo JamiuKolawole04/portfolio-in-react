@@ -15,23 +15,29 @@ export const Contact = () => {
                     <Col lg="6" md="6">
                         <div className="contact__info-container d-flex align-items-center gap-5">
                             <div className="single__info-box w-50">
+                                <i className="ri-map-pin-2-line"></i>
                                 <h6>Address</h6>
                                 <p>Nigeria, African Country</p>
                             </div>
 
                             <div className="single__info-box w-50">
+                                <i className="ri-whatsapp-line"></i>
                                 <h6>Phone</h6>
                                 <p>+234 902 135 3504</p>
+                                <a href="https://wa.me/9021353504" target="_blank" rel="noreferrer">send a message</a>
                             </div>
                         </div>
 
                         <div className="contact__info-container d-flex align-items-center gap-5">
                             <div className="single__info-box w-50">
+                                <i className="ri-mail-line"></i>
                                 <h6>Email</h6>
-                                <p className="mail__address">JamiuKolawole532@gmail.com</p>
+                                <p className="mail__address">JamiuKolawole532 <span>@gmail.com</span> </p>
+                                <a href="mailto:JamiuKolawole532@gmail.com" target="_blank" rel="noreferrer">send a message</a>
                             </div>
 
                             <div className="single__info-box w-50">
+                                <i className="ri-map-pin-2-line"></i>
                                 <h6>Location</h6>
                                 <p>Nigeria</p>
                             </div>

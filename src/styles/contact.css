@@ -1,3 +1,20 @@
+.contact__info-container {
+    text-align: center;
+}
+
+.contact__info-container i {
+    color: var(--white);
+    height: 40px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.contact__info-container a,
+.contact__info-container a:hover {
+    color: var(--col-puple-one);
+    font-size: .8rem;
+}
+
 .single__info-box {
     background: var(--blue-color-three);
     padding: 16px;
@@ -28,8 +45,8 @@
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 390px) {
     .mail__address {
-        font-size: .62rem !important;
+        font-size: .65rem !important;
     }
 }
