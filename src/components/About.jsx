@@ -62,7 +62,7 @@ export const About = () => {
                                     <div className="social__links">
                                         <h6>Connect with me:</h6>
                                         <span><a href="https://m.me/kolawole.jamiu.33" target="_blank" rel="noreferrer"><i className="ri-facebook-line"></i></a></span>
-                                        <span><a href="www.linkedin.com/in/jamiu-kolawole-25a85a201" target="_blank" rel="noreferrer"><i className="ri-linkedin-line"></i></a></span>
+                                        <span><a href="https://www.linkedin.com/in/jamiu-kolawole-25a85a201" target="_blank" rel="noreferrer"><i className="ri-linkedin-line"></i></a></span>
                                         <span><a href="https://github.com/JamiuKolawole04" target="_blank" rel="noreferrer"><i className="ri-github-line"></i></a></span>
                                         {/* <span><a href="#" target="_blank" rel="noreferrer"><i className="ri-instagram-line"></i></a></span> */}
                                     </div>
