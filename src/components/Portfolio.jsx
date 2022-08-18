@@ -1,21 +1,22 @@
 import { Col, Container, Row } from "reactstrap";
 
-import img01 from "../asset/images/product-1.png";
-import img02 from "../asset/images/product-2.png";
+import img01 from "../asset/images/car-rental.png";
+import img02 from "../asset/images/powerful-python.png";
 import img03 from "../asset/images/product-3.png";
 
 export const Portfolio = () => {
     const portfolioData = [
         {
-            imgUrl: img01,
-            title: "React Landing Page",
-            url: "#",
+            imgUrl: img02,
+            title: "Powerful python in html, css, and Js",
+            url: "https://powerfulpython.com/",
         },
         {
-            imgUrl: img02,
-            title: "React Landing Page",
-            url: "#",
+            imgUrl: img01,
+            title: "Car Rental service in React",
+            url: "https://carentalservice.netlify.app/",
         },
+
         {
             imgUrl: img03,
             title: "React Landing Page",
