@@ -16,7 +16,7 @@ export const Services = () => {
         {
             icon: "ri-code-s-slash-line",
             title: "Back End Web Development",
-            desc: "Developmentthe server-side functional logic, definition and maintenance of the central database with security, optimization, scalability and performance in mind.",
+            desc: "Develop the server-side functional logic, definition and maintenance of the central database with security, optimization, scalability and performance in mind.",
         },
         // {
         //     icon: "ri-qr-code-line",
