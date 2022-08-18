@@ -35,7 +35,7 @@ export const HeroSection = () => {
                             <p>{description}</p>
 
                             <div className=" mt-5 hero__btns d-flex align-items-center gap-4">
-                                <button className="btn hire__btn"><a href="#">Hire me</a></button>
+                                <button className="btn hire__btn"><a href="#contact">Hire me</a></button>
                                 <button className="btn contact__btn"><a href="#contact">Contact</a></button>
                             </div>
                         </div>
