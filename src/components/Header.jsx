@@ -72,7 +72,7 @@ export const Header = () => {
                     </div>
 
                     <div className="nav__right d-flex align-items-center gap-4">
-                        <button className="btn">Let's Talk</button>
+                        <button className="btn"> <a href="#contact">Let's Talk </a> </button>
                         <span className="mobile__menu"><i className="ri-menu-5-line" onClick={menuToggle}></i></span>
                     </div>
                 </div>
