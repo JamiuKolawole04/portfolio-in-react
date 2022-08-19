@@ -24,7 +24,8 @@ export const Contact = () => {
                                 <i className="ri-whatsapp-line"></i>
                                 <h6>Phone</h6>
                                 <p>+234 902 135 3504</p>
-                                <a href="https://wa.me/9021353504" target="_blank" rel="noreferrer">send a message</a>
+                                {/* <a href="https://wa.me/9021353504" target="_blank" rel="noreferrer">send a message</a> */}
+                                <a href="https://wa.link/s9ctca" target="_blank" rel="noreferrer">send a message</a>
                             </div>
                         </div>
 
