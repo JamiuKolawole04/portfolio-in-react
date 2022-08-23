@@ -11,7 +11,7 @@ export const Skills = () => {
             percentage: "100%",
         },
         {
-            title: "CSS preprocessors like SAAS ",
+            title: "SCSS",
             percentage: "100%",
         },
         {
@@ -25,18 +25,18 @@ export const Skills = () => {
             title: "Node.js",
             percentage: "100%",
         },
-        {
-            title: "Express.js",
-            percentage: "100%",
-        },
+        // {
+        //     title: "Express.js",
+        //     percentage: "100%",
+        // },
         {
             title: "MongoDB",
             percentage: "100%",
         },
-        {
-            title: "Socket.io",
-            percentage: "100%",
-        },
+        // {
+        //     title: "Socket.io",
+        //     percentage: "100%",
+        // },
     ];
 
 

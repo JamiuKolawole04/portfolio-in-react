@@ -17,7 +17,7 @@ export const Contact = () => {
                             <div className="single__info-box w-50">
                                 <i className="ri-map-pin-2-line"></i>
                                 <h6>Address</h6>
-                                <p>Nigeria, African Country</p>
+                                <p>Ibadan, Oyo state, Nigeria.</p>
                             </div>
 
                             <div className="single__info-box w-50">

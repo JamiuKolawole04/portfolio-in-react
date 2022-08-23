@@ -6,7 +6,7 @@ export const Experience = () => {
         {
             year: "2020 - 2021",
             title: "Side Hustle Internship",
-            desc: "Interning at Side Hustle has imparted me with cross-cultural skills and qualities, providing me with greater knowledge and understanding of building scalable and responsive web applications  and collaborations with various teams on boards. I handled valuable works of front end development during the intern and had to track down and fix bugs and other problems. I had to show responsibility, self-motivation, and strong self-awareness while working at the project and in communication with other teams",
+            desc: "Worked on frontend and prsonal projects with collaboration with other on board team members",
         },
         // {
         //     year: "2019 - 2020",
