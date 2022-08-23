@@ -8,12 +8,12 @@ export const Portfolio = () => {
     const portfolioData = [
         {
             imgUrl: img02,
-            title: "Powerful python in html, css, and Js",
+            title: "Powerful Python in Html, Css, and Js",
             url: "https://powerfulpython.com/",
         },
         {
             imgUrl: img01,
-            title: "Car Rental service in React",
+            title: "Car Rental Service in React",
             url: "https://carentalservice.netlify.app/",
         },
 
