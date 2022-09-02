@@ -2,7 +2,7 @@ import { Col, Container, Row } from "reactstrap";
 
 import img01 from "../asset/images/car-rental.png";
 import img02 from "../asset/images/powerful-python.png";
-import img03 from "../asset/images/product-3.png";
+import img03 from "../asset/images/vawulens_img.png";
 
 export const Portfolio = () => {
     const portfolioData = [
@@ -20,7 +20,7 @@ export const Portfolio = () => {
         {
             imgUrl: img03,
             title: "React Landing Page",
-            url: "#",
+            url: "https://vawulens-fitness.netlify.app/",
         },
     ];
     return (
