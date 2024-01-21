@@ -7,6 +7,7 @@ import img04 from "../asset/images/finer_Point.png";
 import img05 from "../asset/images/the-hub.png";
 import img06 from "../asset/images/project_1.png";
 import img07 from "../asset/images/project_2.png";
+import img08 from "../asset/images/minimalist.png";
 
 export const Portfolio = () => {
   const portfolioData = [
@@ -20,6 +21,12 @@ export const Portfolio = () => {
       imgUrl: img07,
       title: "Zisk properties api with Nodejs, Express and Typescript",
       url: "https://www.ziskproperties.com/",
+    },
+
+    {
+      imgUrl: img08,
+      title: "Worked as backend Engineer on the product full time",
+      url: "https://minimalistlimited.com",
     },
 
     {
