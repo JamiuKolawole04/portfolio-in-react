@@ -5,9 +5,23 @@ import img02 from "../asset/images/powerful-python.png";
 import img03 from "../asset/images/vawulens_img.png";
 import img04 from "../asset/images/finer_Point.png";
 import img05 from "../asset/images/the-hub.png";
+import img06 from "../asset/images/project_1.png";
+import img07 from "../asset/images/project_2.png";
 
 export const Portfolio = () => {
   const portfolioData = [
+    {
+      imgUrl: img06,
+      title: "Profit curve website in Html, Css, and Js with api consumption",
+      url: "https://www.profitcurve.ca",
+    },
+
+    {
+      imgUrl: img07,
+      title: "Zisk properties api with Nodejs, Express and Typescript",
+      url: "https://www.ziskproperties.com/",
+    },
+
     {
       imgUrl: img02,
       title: "Powerful Python in Html, Css, and Js",
