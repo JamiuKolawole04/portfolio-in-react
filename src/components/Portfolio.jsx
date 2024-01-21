@@ -8,6 +8,7 @@ import img05 from "../asset/images/the-hub.png";
 import img06 from "../asset/images/project_1.png";
 import img07 from "../asset/images/project_2.png";
 import img08 from "../asset/images/minimalist.png";
+import img09 from "../asset/images/fastrack.webp";
 
 export const Portfolio = () => {
   const portfolioData = [
@@ -38,6 +39,13 @@ export const Portfolio = () => {
       imgUrl: img01,
       title: "Car Rental Service in React",
       url: "https://carentalservice.netlify.app/",
+    },
+
+    {
+      imgUrl: img09,
+      title:
+        "Fastrack logistics app for tracking orders.Worked as a backend engineer on this project",
+      url: "https://play.google.com/store/apps/details?id=com.fastrack.delivery&pcampaignid=web_share",
     },
 
     {
