@@ -3,35 +3,6 @@
   margin-bottom: 15px;
 }
 
-.portfolio__card {
-  position: relative;
-  z-index: 90;
-  cursor: pointer;
-}
-
-.portfolio__content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(rgb(0, 13, 107, 0.6), rgb(0, 13, 107, 0.6));
-  z-index: 91;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  transform: translateY(-100%);
-  opacity: 0;
-  border-radius: 4px;
-  transition: 0.3s;
-}
-
-.portfolio__card:hover .portfolio__content {
-  transform: translateY(0);
-  opacity: 1;
-}
-
 .portfolio__img img {
   height: 200px;
   border-radius: 4px;
@@ -62,4 +33,93 @@
   .portfolio__card {
     margin-bottom: 160px;
   }
+}
+
+.portfolio__description {
+  font-size: 0.9rem;
+  color: var(--scroll-bar-color);
+  margin: 0.8rem 0;
+  line-height: 1.5;
+  font-family: var(--font-Lato);
+  font-weight: var(--fw4);
+}
+
+.portfolio__technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tech__badge {
+  background: var(--lightBlue);
+  color: var(--scroll-bar-color);
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: var(--fw5);
+  border: 1px solid var(--blue-color-three);
+  transition: all 0.3s ease;
+  font-family: var(--font-Rubik);
+}
+
+.tech__badge:hover {
+  background: var(--col-puple-one);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+.demo__link {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: var(--col-puple-one);
+  font-weight: var(--fw5);
+  font-family: var(--font-Rubik);
+  transition: color 0.3s ease;
+}
+
+.demo__link:hover {
+  color: var(--scroll-bar-color);
+  text-decoration: underline;
+}
+
+.portfolio__content {
+  padding: 1.2rem;
+  background: var(--darkBlue);
+}
+
+.portfolio__content h5 {
+  color: var(--white);
+  font-family: var(--font-Rubik);
+  font-weight: var(--fw6);
+  margin-bottom: 0.8rem;
+}
+
+.portfolio__card {
+  border: 1px solid var(--blue-color-three);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  margin-bottom: 2rem;
+  background: var(--lightBlue);
+}
+
+.portfolio__card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(120, 101, 255, 0.2);
+  border-color: var(--col-puple-one);
+}
+
+.portfolio__img {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio__img img {
+  transition: transform 0.3s ease;
+}
+
+.portfolio__card:hover .portfolio__img img {
+  transform: scale(1.05);
 }
