@@ -146,8 +146,8 @@ export const Portfolio = () => {
                     className="demo__link"
                   >
                     View live demo
+                    <ExternalLink className="external__icon" size={16} />
                   </a>
-                  <ExternalLink />
                 </div>
               </div>
             </Col>

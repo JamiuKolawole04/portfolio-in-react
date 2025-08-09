@@ -123,3 +123,15 @@
 .portfolio__card:hover .portfolio__img img {
   transform: scale(1.05);
 }
+
+.demo__link:hover .external__icon {
+  transform: translate(3px, -3px);
+  color: var(--scroll-bar-color);
+}
+
+.external__icon {
+  transition: all 0.3s ease;
+  color: var(--col-puple-one);
+  flex-shrink: 0;
+  margin-left: 8px;
+}
