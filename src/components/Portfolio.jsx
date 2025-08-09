@@ -1,4 +1,5 @@
 import { Col, Container, Row } from "reactstrap";
+import { ExternalLink } from "lucide-react";
 
 import img01 from "../asset/images/car-rental.png";
 import img02 from "../asset/images/powerful-python.png";
@@ -85,6 +86,8 @@ export const Portfolio = () => {
                   <a href={item.url} target="_blank" rel="noreferrer">
                     View live demo
                   </a>
+
+                  <ExternalLink />
                 </div>
               </div>
             </Col>

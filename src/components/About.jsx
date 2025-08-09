@@ -64,7 +64,7 @@ export const About = () => {
                                 </div> */}
 
                 <div className="about__content w-75">
-                  <h2>I am Jay</h2>
+                  <h2>I am Jamiu</h2>
                   <p>
                     I am a seasoned and passionate web developer with years of
                     experience blending the art of design with programming
