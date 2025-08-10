@@ -15,10 +15,10 @@ export const Portfolio = () => {
   const portfolioData = [
     {
       imgUrl: img06,
-      title: "Profit curve website in Html, Css, and Js with api consumption",
+      title: "Profit curve - Accounting Services with Profitable Analysis",
       description:
         "A modern business website focused on profit optimization with integrated API consumption for dynamic data display and business analytics.",
-      technologies: ["HTML", "CSS", "JavaScript", "API Integration"],
+      technologies: ["HTML", "CSS", "JavaScript"],
       url: "https://www.profitcurve.ca",
     },
     {
