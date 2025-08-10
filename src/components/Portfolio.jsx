@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Col, Container, Row } from "reactstrap";
 import { ExternalLink } from "lucide-react";
 
@@ -12,6 +13,8 @@ import img08 from "../asset/images/minimalist.png";
 import img09 from "../asset/images/fastrack.webp";
 
 export const Portfolio = () => {
+  const [activeFilter, setActiveFilter] = useState("all");
+
   const portfolioData = [
     {
       imgUrl: img06,
@@ -20,6 +23,7 @@ export const Portfolio = () => {
         "A modern business website focused on profit optimization with integrated API consumption for dynamic data display and business analytics.",
       technologies: ["HTML", "CSS", "JavaScript"],
       url: "https://www.profitcurve.ca",
+      type: "frontend",
     },
     {
       imgUrl: img07,
@@ -28,6 +32,7 @@ export const Portfolio = () => {
         "A comprehensive property management API built with modern backend technologies, featuring robust data handling and type safety.",
       technologies: ["Node.js", "Express", "TypeScript", "API Development"],
       url: "https://www.ziskproperties.com/",
+      type: "backend",
     },
     {
       imgUrl: img08,
@@ -41,6 +46,7 @@ export const Portfolio = () => {
         "System Architecture",
       ],
       url: "https://minimalistlimited.com",
+      type: "backend",
     },
     {
       imgUrl: img02,
@@ -55,6 +61,7 @@ export const Portfolio = () => {
         "Educational Platform",
       ],
       url: "https://powerfulpython.com/",
+      type: "frontend",
     },
     {
       imgUrl: img01,
@@ -63,6 +70,7 @@ export const Portfolio = () => {
         "A full-featured car rental application with booking system, vehicle management, and user-friendly interface built with React.",
       technologies: ["React", "JavaScript", "Frontend Development"],
       url: "https://carentalservice.netlify.app/",
+      type: "frontend",
     },
     {
       imgUrl: img09,
@@ -77,6 +85,7 @@ export const Portfolio = () => {
         "Real-time Tracking",
       ],
       url: "https://play.google.com/store/apps/details?id=com.fastrack.delivery&pcampaignid=web_share",
+      type: "backend",
     },
     {
       imgUrl: img03,
@@ -85,6 +94,7 @@ export const Portfolio = () => {
         "A responsive and modern landing page built with React, featuring clean design principles and optimized user experience.",
       technologies: ["React", "Responsive Design", "Frontend Development"],
       url: "https://vawulens-fitness.netlify.app/",
+      type: "frontend",
     },
     {
       imgUrl: img04,
@@ -97,6 +107,7 @@ export const Portfolio = () => {
         "Interactive Learning",
       ],
       url: "https://www.learnthefinerpoints.com/",
+      type: "frontend",
     },
     {
       imgUrl: img05,
@@ -109,22 +120,54 @@ export const Portfolio = () => {
         "User Management",
       ],
       url: "https://thehub.io/",
+      type: "frontend",
     },
   ];
+
+  const filteredProjects =
+    activeFilter === "all"
+      ? portfolioData
+      : portfolioData.filter((project) => project.type === activeFilter);
+
+  const filterButtons = [
+    { key: "all", label: "All Projects" },
+    { key: "frontend", label: "Frontend" },
+    { key: "backend", label: "Backend" },
+  ];
+
   return (
     <section id="portfolio">
       <Container>
         <Row>
           <Col lg="12" className="portfolio__top mb-5">
             <h6>Explore my work</h6>
-            <h2>Porfolio</h2>
+            <h2>Portfolio</h2>
+
+            {/* Filter Buttons */}
+            <div className="portfolio__filters">
+              {filterButtons.map((button) => (
+                <button
+                  key={button.key}
+                  className={`filter__btn ${
+                    activeFilter === button.key ? "active" : ""
+                  }`}
+                  onClick={() => setActiveFilter(button.key)}
+                >
+                  {button.label}
+                </button>
+              ))}
+            </div>
           </Col>
 
-          {portfolioData.map((item, index) => (
-            <Col lg="4" md="6" sm="6" key={index}>
+          {filteredProjects.map((item, index) => (
+            <Col lg="4" md="6" sm="6" key={`${item.type}-${index}`}>
               <div className="portfolio__card">
                 <div className="portfolio__img">
                   <img src={item.imgUrl} alt="" className="w-100" />
+                  {/* Project type badge */}
+                  <span className={`project__type ${item.type}`}>
+                    {item.type.charAt(0).toUpperCase() + item.type.slice(1)}
+                  </span>
                 </div>
 
                 <div className="portfolio__content">
