@@ -53,16 +53,11 @@ export const Portfolio = () => {
     },
     {
       imgUrl: img02,
-      title: "Powerful Python in Html, Css, and Js",
+      title:
+        "Powerful Python - A powerful platform for learning python programming language",
       description:
         "An educational platform designed to teach Python programming with interactive examples and comprehensive learning resources.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Python",
-        "Educational Platform",
-      ],
+      technologies: ["HTML", "CSS", "JavaScript"],
       url: "https://powerfulpython.com/",
       type: "frontend",
     },
@@ -71,17 +66,19 @@ export const Portfolio = () => {
       title: "Car Rental Service in React",
       description:
         "A full-featured car rental application with booking system, vehicle management, and user-friendly interface built with React.",
-      technologies: ["React", "JavaScript", "Frontend Development"],
+      technologies: ["React", "JavaScript", "Bootstrap", "CSS"],
       url: "https://carentalservice.netlify.app/",
       type: "frontend",
     },
     {
       imgUrl: img09,
-      title:
-        "Fastrack logistics app for tracking orders.Worked as a backend engineer on this project",
+      title: "Fastrack logistics app for tracking orders.",
       description:
         "A mobile logistics application for real-time order tracking and delivery management, focusing on backend infrastructure and API development.",
       technologies: [
+        "Nodejs",
+        "Fastify",
+        "Typescript",
         "Backend Engineering",
         "Mobile API",
         "Order Management",
@@ -92,10 +89,10 @@ export const Portfolio = () => {
     },
     {
       imgUrl: img03,
-      title: "React Landing Page",
+      title: "Vawulens fitness website - React Landing Page",
       description:
         "A responsive and modern landing page built with React, featuring clean design principles and optimized user experience.",
-      technologies: ["React", "Responsive Design", "Frontend Development"],
+      technologies: ["React", "CSS", "Javascript", "Responsive Design"],
       url: "https://vawulens-fitness.netlify.app/",
       type: "frontend",
     },
