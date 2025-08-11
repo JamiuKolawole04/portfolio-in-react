@@ -27,7 +27,7 @@ export const Portfolio = () => {
     },
     {
       imgUrl: img07,
-      title: "Zisk properties api with Nodejs, Express and Typescript",
+      title: "Zisk properties - Property investment platform",
       description:
         "A comprehensive property management API built with modern backend technologies, featuring robust data handling and type safety.",
       technologies: ["Node.js", "Express", "TypeScript", "API Development"],
@@ -36,10 +36,13 @@ export const Portfolio = () => {
     },
     {
       imgUrl: img08,
-      title: "Worked as backend Engineer on the product full time",
+      title: "Minimalist - Real Estate development company",
       description:
         "Full-time backend development role focusing on scalable architecture, database optimization, and API development for enterprise solutions.",
       technologies: [
+        "Nodejs",
+        "Fastify",
+        "Typescript",
         "Backend Engineering",
         "Database Design",
         "API Development",
