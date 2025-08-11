@@ -11,11 +11,20 @@ import img06 from "../asset/images/project_1.png";
 import img07 from "../asset/images/project_2.png";
 import img08 from "../asset/images/minimalist.png";
 import img09 from "../asset/images/fastrack.webp";
-
+import img10 from "../asset/images/tradeflow-africa.png";
 export const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("all");
 
   const portfolioData = [
+    {
+      imgUrl: img10,
+      title: "Tradeflow Africa",
+      description:
+        "An innovative trade-enablement ecosystem empowering African SMEs with real-time market intelligence, compliance support, and access to regional and global trade networks",
+      technologies: ["React js", "Typescript", "Tailwind CSS"],
+      url: "https://www.tradeflow.africa/",
+      type: "frontend",
+    },
     {
       imgUrl: img06,
       title: "Profit curve - Accounting Services with Profitable Analysis",
