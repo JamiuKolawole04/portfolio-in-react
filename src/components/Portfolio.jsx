@@ -6,7 +6,7 @@ import img01 from "../asset/images/car-rental.png";
 import img02 from "../asset/images/powerful-python.png";
 import img03 from "../asset/images/vawulens_img.png";
 import img04 from "../asset/images/finer_Point.png";
-import img05 from "../asset/images/the-hub.png";
+// import img05 from "../asset/images/the-hub.png";
 import img06 from "../asset/images/project_1.png";
 import img07 from "../asset/images/project_2.png";
 import img08 from "../asset/images/minimalist.png";
@@ -118,19 +118,19 @@ export const Portfolio = () => {
       url: "https://www.learnthefinerpoints.com/",
       type: "frontend",
     },
-    {
-      imgUrl: img05,
-      title: "The hub",
-      description:
-        "A centralized platform serving as a digital hub for various services and resources, built with modern web technologies.",
-      technologies: [
-        "Web Platform",
-        "Full Stack Development",
-        "User Management",
-      ],
-      url: "https://thehub.io/",
-      type: "frontend",
-    },
+    // {
+    //   imgUrl: img05,
+    //   title: "The hub",
+    //   description:
+    //     "A centralized platform serving as a digital hub for various services and resources, built with modern web technologies.",
+    //   technologies: [
+    //     "Web Platform",
+    //     "Full Stack Development",
+    //     "User Management",
+    //   ],
+    //   url: "https://thehub.io/",
+    //   type: "frontend",
+    // },
   ];
 
   const filteredProjects =
