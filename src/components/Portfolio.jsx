@@ -12,10 +12,21 @@ import img07 from "../asset/images/project_2.png";
 import img08 from "../asset/images/minimalist.png";
 import img09 from "../asset/images/fastrack.webp";
 import img10 from "../asset/images/tradeflow-africa.png";
+import img11 from "../asset/images/thunderpick.png";
+
 export const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("all");
 
   const portfolioData = [
+    {
+      imgUrl: img11,
+      title: "Thunderpick - Crypto Esports Betting & Casino Platform",
+      description:
+        "Developed a modern crypto esports betting and casino platform featuring a sleek, gaming-focused user interface. Built with React.js, to deliver a responsive, high-performance betting experience optimized for cryptocurrency transactions and esports enthusiasts.",
+      technologies: ["React js", "Javascript", "Bootstrap", "Material UI"],
+      url: "https://thunderpick.io",
+      type: "frontend",
+    },
     {
       imgUrl: img10,
       title: "Tradeflow Africa",
