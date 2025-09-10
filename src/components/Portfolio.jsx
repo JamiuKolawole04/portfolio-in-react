@@ -22,7 +22,7 @@ export const Portfolio = () => {
       imgUrl: img11,
       title: "Thunderpick - Crypto Esports Betting & Casino Platform",
       description:
-        "Developed a modern crypto esports betting and casino platform featuring a sleek, gaming-focused user interface. Built with React.js, to deliver a responsive, high-performance betting experience optimized for cryptocurrency transactions and esports enthusiasts.",
+        "A modern crypto esports betting and casino platform featuring a sleek, gaming-focused user interface. Built with React.js, to deliver a responsive, high-performance betting experience optimized for cryptocurrency transactions and esports enthusiasts.",
       technologies: ["React js", "Javascript", "Bootstrap", "Material UI"],
       url: "https://thunderpick.io",
       type: "frontend",
