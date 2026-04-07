@@ -13,6 +13,7 @@ import img08 from "../asset/images/minimalist.png";
 import img09 from "../asset/images/fastrack.webp";
 import img10 from "../asset/images/tradeflow-africa.png";
 import img11 from "../asset/images/thunderpick.png";
+import img12 from "../asset/images/tryndx.png";
 
 export const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -25,6 +26,15 @@ export const Portfolio = () => {
         "A modern crypto esports betting and casino platform featuring a sleek, gaming-focused user interface. Built with React.js, to deliver a responsive, high-performance betting experience optimized for cryptocurrency transactions and esports enthusiasts.",
       technologies: ["React js", "Javascript", "Bootstrap", "Material UI"],
       url: "https://thunderpick.io",
+      type: "frontend",
+    },
+    {
+      imgUrl: img12,
+      title: "Tryndx - Trading Journal Website",
+      description:
+        "A high-powered trading journal that’s made to analyze your performance and crunch the numbers. Get real-time, actionable trading insights right at your fingertips.",
+      technologies: ["React js", "Tailwind CSS", "API Integration"],
+      url: "https://tryndx.vercel.app",
       type: "frontend",
     },
     {
