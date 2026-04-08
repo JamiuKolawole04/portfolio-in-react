@@ -14,6 +14,7 @@ import img09 from "../asset/images/fastrack.webp";
 import img10 from "../asset/images/tradeflow-africa.png";
 import img11 from "../asset/images/thunderpick.png";
 import img12 from "../asset/images/tryndx.png";
+import img13 from "../asset/images/firstchoice-property.png";
 
 export const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -35,6 +36,15 @@ export const Portfolio = () => {
         "A high-powered trading journal that’s made to analyze your performance and crunch the numbers. Get real-time, actionable trading insights right at your fingertips.",
       technologies: ["React js", "Tailwind CSS", "API Integration"],
       url: "https://tryndx.vercel.app",
+      type: "frontend",
+    },
+    {
+      imgUrl: img13,
+      title: "First choice property - Trading Journal Website",
+      description:
+        "A trusted real-estate firm based in Nigeria, committed to delivering honest, reliable, and transparent services in letting, leasing, buying, and selling residential and commercial properties.",
+      technologies: ["React js", "Tailwind CSS", "API Integration"],
+      url: "https://www.1stchoiceproperties.com.ng",
       type: "frontend",
     },
     {
